@@ -1,0 +1,45 @@
+/* Notification.css */
+
+/* Existing styles */
+.cntr {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.notification-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.notification {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #6c088b;
+    border: 1px solid #ddd;
+}
+
+/* New styles for button container */
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* New styles for buttons */
+.button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

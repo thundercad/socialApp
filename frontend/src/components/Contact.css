@@ -1,0 +1,35 @@
+.heading {
+    float: left;
+    width: 33.3%;
+    margin-top: 2%;
+    margin-left: 45%;
+    
+    padding: 0 8px;
+    font-style: italic;
+}
+
+.image {
+    margin-top: 5%;
+    cursor: pointer;
+  }
+.box_wrapper{
+    
+    width: 33.3%;
+    padding: 0 8px; 
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.paragraph{
+    width: 33.3%;
+    margin-top: 5%;
+    margin-left: 33%;
+    padding: 0 8px;
+    font-style: normal;
+    text-justify:newspaper;
+}
+
+.App {
+    position: relative;
+}
+
+

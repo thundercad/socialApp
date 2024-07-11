@@ -1,0 +1,14 @@
+.App{
+    position: relative;
+}
+
+
+  .recommended{
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    left:40%;
+    right: 40%;
+    font-style: italic;
+  }

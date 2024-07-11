@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.imgContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%; /* Set the width to half of the screen */
+  height: 100vh; /* Set the height to full viewport height */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.imageee {
+  width: 100%; /* Set the width of the image to fill its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.content {
+  margin-left: 70%; /* Set margin to make space for the fixed image */
+  margin-top: 40px;
+  padding: 20px; /* Add padding to create space between the image and content */
+}
+.post{
+  margin-left: 50%;
+  padding: 20px;
+
+}
+.ccle {
+  width: 70px; /* Adjust this value to change the size of the circle */
+  height: 70px; /* Adjust this value to change the size of the circle */
+  border-radius: 50%; /* Makes the div appear as a circle */
+  background-color: #edf0f3; /* Adjust color as needed */
+  position: fixed;
+  top: 10px; /* Adjust this value to change the distance from the bottom */
+  right: 15px; /* Adjust this value to change the distance from the right */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.setting-sign {
+  font-size: 24px; /* Adjust this value to change the size of the plus sign */
+  color: rgb(19, 17, 17); /* Adjust color as needed */
+  /* margin-left: 7px;
+  margin-bottom: 7px; */
+  margin-top: 45px;
+  background-color: transparent;
+  border: none;
+  translate: 0 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  /* left:2px;
+  bottom: 5px; */
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #4811a8; /* Adjust color as needed */
+}

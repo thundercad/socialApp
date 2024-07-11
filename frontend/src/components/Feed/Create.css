@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.upload-box {
+    position: relative;
+    border-radius: 20px;
+    border-style: dotted;
+    width: 30%;
+    height: 500px;
+    color: skyblue;
+    text-align: center; /* Center text in the upload box */
+}
+
+.upload-input {
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center; /* Center text for labels */
+}

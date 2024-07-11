@@ -1,0 +1,42 @@
+.msg-input {
+    position: fixed;
+    width: 100%;
+    bottom: 15px;
+    left: 0;
+    display: inline-block;
+    border: none;
+    margin: 20px;
+}
+
+.msg-container {
+    position: relative;
+    width: 70vw; /* corrected typo */
+    margin: 10px;
+    padding: 10px;
+}
+
+.input-line {
+    height: 50px;
+    width: 95%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.messages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message {
+    background-color: #388a1d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message div {
+    margin-bottom: 5px;
+}

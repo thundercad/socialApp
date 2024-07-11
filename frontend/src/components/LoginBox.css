@@ -1,0 +1,151 @@
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.login-input{
+  /* width: 40%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.login_button{
+  width: 100px;
+  padding: 10px 18px;
+  background-color: #2c39f3;
+  padding-right: auto;
+  padding-left: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 100ms ease-in-out all;
+}
+
+.login_button:hover{
+  background-color: #0011ff;
+}
+/* Set a style for all buttons */
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 2px 2px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+
+/* Add a hover effect for buttons */
+.button:hover {
+  opacity: 0.4;
+}
+
+/* Extra style for the cancel button (red) */
+.signup_button {
+  width: 100px;
+  padding: 10px 18px;
+  background-color: #ee6f66;
+  padding-right: auto;
+  padding-left: auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 100ms ease-in-out all;
+}
+
+.signup_button:hover{
+  background-color: #eb2617;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 10px;
+  align-items: center;
+  border: none;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.login-box-wrapper{
+  background-color: black;
+  width:fit-content; 
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 30px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 3px;
+
+  transition: 200ms all ease;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: rgb(56, 56, 255);
+  border-color: rgb(56, 56, 255);
+  cursor: pointer;
+}
+
+.loginbox-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding-right: auto;
+  padding-left: auto;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
