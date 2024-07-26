@@ -1,1 +1,4 @@
-Just a dumbly executed end semester Project for The Data Base Project,not Proud ,not ment to be learnt from
+Just a dumbly executed end semester Project for The Data Base Project,not Proud of ,
+backENd(APIS)--->FLASK
+frontENd(UI)--->React
+DataBAse-->Micrsoft sql server
